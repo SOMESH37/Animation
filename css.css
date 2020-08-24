@@ -1,1 +1,36 @@
-
+*{
+    scroll-behavior:smooth;
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    width:100%;
+    height:100%;
+    padding:5% 0 2% 5%;
+    position:fixe;
+}
+img{
+    display:block;
+    vertical-align:middle;
+    height:80vh;
+    width:auto;
+    margin-left:10%;
+}
+#fireball{
+    height:34vh;
+}
+#transform{
+    height:58vh;
+}
+footer{
+    padding:1% 7% 0 2%;
+    height:5%;
+}
+.b1{
+    display:inline;
+    vertical-align:tet-botto;
+}
+.b2{
+    vertical-align:midde;
+    float:right;
+}
