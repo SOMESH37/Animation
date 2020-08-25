@@ -6,31 +6,66 @@ body{
     margin:0;
     width:100%;
     height:100%;
-    padding:5% 0 2% 5%;
-    position:fixe;
+    padding:2% 0%;
+    position:absolute;
 }
 img{
-    display:block;
+    display: none;
+    position:fixed;
     vertical-align:middle;
-    height:80vh;
+    height:85vh;
     width:auto;
     margin-left:10%;
+    z-index=1;
 }
+#goku11{
+    display:block;
+}
+#goku12{
+	 margin-left:3vw;
+}
+#goku21{
+	 margin-left:9%;
+}
+#goku22{
+	 margin-left:8%;
+	 margin-top:2%;
+}
+#goku3{
+	 margin-top:-7vh;
+	 margin-left:5%;
+	 height:100vh;
+}
+
 #fireball{
     height:34vh;
+    margin-top:13vh;
+    margin-left:20vw;
 }
-#transform{
-    height:58vh;
+#R,#L{
+	margin:-8% 0 0 -6%;
+	padding:0;
+	filter: drop-shadow(20px 10px 30px black);
+}
+#L{
+	filter: drop-shadow(-20px 10px 30px black);
 }
 footer{
-    padding:1% 7% 0 2%;
-    height:5%;
+    margin:87vh 10vw 0;
+    padding:0% 2%;
+    height:auto;
+    position: sticky;
+    display:flex;
 }
-.b1{
-    display:inline;
-    vertical-align:tet-botto;
+#b1,#b2{
+	background-color: transparent;
+	padding:1%;
+    flex:60%;
+    text-align: center;
+    border:none;
+    text-shadow: 3px 4px 10px #000000;
+    font-size:1rem;
 }
-.b2{
-    vertical-align:midde;
-    float:right;
+#b2{
+    flex:40%;
 }
