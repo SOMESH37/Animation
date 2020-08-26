@@ -89,23 +89,23 @@ function click2(obj){
 		}
 		
 		if(form==3){
-			var id = setInterval(frame, 1);
+			var id = setInterval(frame, 10);
 			document.getElementById("goku3").style.display="none";
 			document.getElementById("b1").style.display="none";
 			document.getElementById("b2").style.display="none";
 			document.getElementById("back").style.opacity= "0.8";
 			function frame(){
-				var x=Math.random()*80;
-				var y=Math.random()*80;
-				if(x>40){
+				var x=Math.random()*100;
+				var y=Math.random()*100;
+				if(x>50){
 					document.getElementById("R").style.display="block";
 					document.getElementById("R").style.left=x+"%";
 					document.getElementById("R").style.top=y+"%";
 				}
 				else{
 					document.getElementById("L").style.display="block";
-					document.getElementById("L").style.left=x+"%";
-					document.getElementById("L").style.top=y+"%";
+					document.getElementById("L").style.left=x-15+"%";
+					document.getElementById("L").style.top=y-7+"%";
 				}}
 	/*			   
   NOT WORKING: Expectation- color changing drop shadows of #L and #R 
@@ -120,11 +120,6 @@ function click2(obj){
     document.getElementById("R").style.filter= "drop-shadow
     (-20px 10px 30px rgb("+ Number(p)+","  + Number(q)+"," + Number(r)+"));";
     }
-     
-    opacity: 0.3;
-    z-index:-10;
-    width:100vw;
-    height:100vh;
     
  */
 }}
