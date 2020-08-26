@@ -33,7 +33,7 @@ img{
 }
 #goku3{
 	 margin-top:-7vh;
-	 margin-left:5%;
+	 margin-left:7%;
 	 height:100vh;
 }
 
@@ -41,6 +41,18 @@ img{
     height:34vh;
     margin-top:13vh;
     margin-left:20vw;
+}
+#back{
+    top:0;
+	margin-left:0vw;
+	display:block;
+	position:fixed;
+    object-fit: cover;
+    opacity: 0.9;
+    z-index:-10;
+    width:100vw;
+    height:auto;
+}
 }
 #R,#L{
 	margin:-8% 0 0 -6%;
@@ -63,7 +75,7 @@ footer{
     flex:60%;
     text-align: center;
     border:none;
-    text-shadow: 3px 4px 10px #000000;
+    text-shadow: 3px 4px 10px #ffffff;
     font-size:1rem;
 }
 #b2{

@@ -93,6 +93,7 @@ function click2(obj){
 			document.getElementById("goku3").style.display="none";
 			document.getElementById("b1").style.display="none";
 			document.getElementById("b2").style.display="none";
+			document.getElementById("back").style.opacity= "0.8";
 			function frame(){
 				var x=Math.random()*80;
 				var y=Math.random()*80;
@@ -119,5 +120,11 @@ function click2(obj){
     document.getElementById("R").style.filter= "drop-shadow
     (-20px 10px 30px rgb("+ Number(p)+","  + Number(q)+"," + Number(r)+"));";
     }
+     
+    opacity: 0.3;
+    z-index:-10;
+    width:100vw;
+    height:100vh;
+    
  */
 }}
