@@ -89,7 +89,7 @@ function click2(obj){
 		}
 		
 		if(form==3){
-			var id = setInterval(frame, 10);
+			setInterval(frame, 20);
 			document.getElementById("goku3").style.display="none";
 			document.getElementById("b1").style.display="none";
 			document.getElementById("b2").style.display="none";
@@ -106,20 +106,13 @@ function click2(obj){
 					document.getElementById("L").style.display="block";
 					document.getElementById("L").style.left=x-15+"%";
 					document.getElementById("L").style.top=y-7+"%";
-				}}
-	/*			   
-  NOT WORKING: Expectation- color changing drop shadows of #L and #R 
+				}	   
     var p=0,q=0,r=0;
-    setInterval(frame,20);
-    function frame(){
-    document.getElementById("L").style.filter= "drop-shadow
-    ( 20px 10px 30px rgb("+ Number(p)+","  + Number(q)+"," + Number(r)+"));";
     r=Math.floor(Math.random()*255+1);
     p=Math.floor(Math.random()*255+1);
     q=Math.floor(Math.random()*255+1);
-    document.getElementById("R").style.filter= "drop-shadow
-    (-20px 10px 30px rgb("+ Number(p)+","  + Number(q)+"," + Number(r)+"));";
+    document.getElementById("L").style.filter= `drop-shadow(-15px 10px 10px rgb(${p},${q},${r}))`;
+    document.getElementById("R").style.filter= `drop-shadow(15px 0px 10px rgb(${r},${p},${q}))`;
     }
-    
- */
+ 
 }}

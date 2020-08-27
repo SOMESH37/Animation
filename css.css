@@ -57,10 +57,6 @@ img{
 #R,#L{
 	margin:-8% 0 0 -10%;
 	padding:0;
-	filter: drop-shadow(20px 10px 30px black);
-}
-#L{
-	filter: drop-shadow(-20px 10px 30px black);
 }
 footer{
     margin:87vh 10vw 0;
